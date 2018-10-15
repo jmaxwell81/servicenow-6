@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Agile Development">1cfdbed4ef541000a7450fa3f8225647</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Demos</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snsbn_demo_kalen_demo</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snsbn_demo_kalen.demo_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-10 14:05:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e0b5b75db81230021367a61399619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_update_name>sys_app_module_3e0b5b75db81230021367a61399619f7</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-10 14:05:19</sys_updated_on>
+        <timeline_page/>
+        <title>Demos</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

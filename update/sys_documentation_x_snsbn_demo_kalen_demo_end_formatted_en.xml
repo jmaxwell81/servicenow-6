@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="end_formatted" label="End Formatted" language="en" table="x_snsbn_demo_kalen_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>end_formatted</element>
+            <help/>
+            <hint/>
+            <label>End Formatted</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo</name>
+            <plural>End Formatted</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-11 12:30:51</sys_created_on>
+            <sys_id>f40fc816db01630021367a61399619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>End Formatted</sys_name>
+            <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+            <sys_update_name>sys_documentation_x_snsbn_demo_kalen_demo_end_formatted_en</sys_update_name>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-11 12:30:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

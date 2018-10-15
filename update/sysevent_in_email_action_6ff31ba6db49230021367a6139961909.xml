@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectSTARTSWITHAccepted^ORsubjectSTARTSWITHTentative^ORsubjectSTARTSWITHDeclined^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Accepted"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Tentative"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Declined"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>SNS Track Demo Registrations</name>
+        <order>50</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+	
+	var sbj = email.subject;     //email subject
+	var body = email.body_text;     //email body
+	body = body.substring(0, body.length-511);
+	
+	
+	var sysAttachmentsGr = new GlideSysAttachment().getAttachments("sys_email", event.parm1);
+	if (!sysAttachmentsGr.next()) {
+		return;
+	}
+	
+	var attachmentContent = new GlideSysAttachment().getContent(sysAttachmentsGr);
+	var uidMatch = attachmentContent.match(/UID:'x_snsbn_demo_kalen_demo([a-fA-F0-9]{32})/);
+	
+	if (uidMatch == null){
+		return;
+		}
+	
+	var meetingId = uidMatch[1];
+	if (!meetingId){
+		return;
+	}
+	
+	var sysid = meetingId;     //get the custom identifier of the outlook event
+	
+	//See if the sys_id from the subject line returns any records
+	var ga = new GlideRecord('x_snsbn_demo_kalen_demo_registration');
+	ga.addQuery('demo',sysid);
+	ga.addQuery('participant.email', email.from);
+	ga.setLimit(1);
+	ga.query();
+	if (ga.hasNext()) {
+		ga.next();
+				if (sbj.indexOf('Accepted') > -1){
+					ga.state = 'accepted';
+				} else if (sbj.indexOf('Tentative') > -1){
+					ga.state = 'tentative';
+				} else if (sbj.indexOf('Declined') > -1){
+					ga.state = 'declined';
+				}
+				var responsenotes = ga.comments;
+				var bslice = body.indexOf('BEGIN:VCALENDAR');
+				if (bslice == -1) {
+					ga.comments = body + '\n\n' + responsenotes;
+				} else if (bslice > 0) {
+					var sbody = body.slice(0, bslice);
+					ga.comments = sbody + '\n\n' + responsenotes;
+				}
+				ga.update();
+			}
+	
+		sys_email.target_table = "x_snsbn_demo_kalen_demo_registration";
+	sys_email.instance = ga.getUniqueValue();
+	
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-12 21:39:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ff31ba6db49230021367a6139961909</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SNS Track Demo Registrations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_update_name>sysevent_in_email_action_6ff31ba6db49230021367a6139961909</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-12 23:24:41</sys_updated_on>
+        <table>x_snsbn_demo_kalen_demo_registration</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

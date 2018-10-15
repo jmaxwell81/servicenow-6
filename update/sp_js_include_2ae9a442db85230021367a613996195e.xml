@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="INSERT_OR_UPDATE">
+        <display_name>angular-bootstrap-calendar.js</display_name>
+        <source>local</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-10 19:51:04</sys_created_on>
+        <sys_id>2ae9a442db85230021367a613996195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-bootstrap-calendar.js</sys_name>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_ui_script display_value="x_snsbn_demo_kalen.angular-bootstrap-cal">99f56b71dbc1230021367a6139961939</sys_ui_script>
+        <sys_update_name>sp_js_include_2ae9a442db85230021367a613996195e</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-10 19:51:04</sys_updated_on>
+        <url/>
+    </sp_js_include>
+</record_update>

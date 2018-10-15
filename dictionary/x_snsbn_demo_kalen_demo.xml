@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo" max_length="40" name="x_snsbn_demo_kalen_demo" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Additional Information" max_length="8000" name="additional_information" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Info Formatted" max_length="1000" name="additional_info_formatted" read_only="true" type="string"/>
+        <element label="Additional Info Formatted HTML" max_length="2000" name="additional_info_formatted_html" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Created Formatted" max_length="40" name="created_formatted" read_only="true" type="string"/>
+        <element label="End" max_length="40" name="end" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End Formatted" max_length="40" name="end_formatted" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From Mail Adress" max_length="100" name="from_mail_adress" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From Name" max_length="100" name="from_name" read_only="true" type="string"/>
+        <element default="0" label="Geaccepteerd" max_length="40" name="geaccepteerd" read_only="true" type="integer"/>
+        <element default="0" label="Geregistreerd" max_length="40" name="geregistreerd" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="100" name="location" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element label="Skype Meeting" max_length="1024" name="skype_meeting" type="url"/>
+        <element label="Sprint" max_length="32" name="sprint" read_only="true" reference="rm_sprint" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Formatted" max_length="40" name="start_formatted" read_only="true" type="string"/>
+        <element default="true" label="Subscribable" max_length="40" name="subscribable" type="boolean"/>
+        <element label="When" max_length="40" name="when" type="glide_date_time"/>
+        <index name="index">
+            <element name="sprint"/>
+        </index>
+    </element>
+</database>

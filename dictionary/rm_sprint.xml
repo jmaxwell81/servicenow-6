@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_delete_children=true" audit="true" extends="rm_release" label="Sprint" max_length="40" name="rm_sprint" sizeclass="40" type="collection">
+        <element label="Demo" max_length="40" name="x_snsbn_demo_kalen_demo" read_only="true" reference="x_snsbn_demo_kalen_demo" type="reference"/>
+        <element label="Demo Date" max_length="40" name="x_snsbn_demo_kalen_demo_date" type="glide_date_time"/>
+    </element>
+</database>

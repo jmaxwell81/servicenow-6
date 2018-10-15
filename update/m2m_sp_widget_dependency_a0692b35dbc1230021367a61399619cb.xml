@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="angularMoments">83596b35dbc1230021367a61399619d7</sp_dependency>
+        <sp_widget display_value="Demo Kalender">c8e6abb1dbc1230021367a61399619de</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-10 15:07:58</sys_created_on>
+        <sys_id>a0692b35dbc1230021367a61399619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angularMoments.Demo Kalender</sys_name>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_a0692b35dbc1230021367a61399619cb</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-10 15:07:58</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

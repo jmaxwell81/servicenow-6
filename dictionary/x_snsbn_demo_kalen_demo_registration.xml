@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo Registration" max_length="40" name="x_snsbn_demo_kalen_demo_registration" type="collection">
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Demo" max_length="32" name="demo" read_only="true" reference="x_snsbn_demo_kalen_demo" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Participant" max_length="32" name="participant" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="3" default="sent" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sent" sequence="0" value="sent"/>
+                <element inactive_on_update="false" label="Update Sent" sequence="1" value="update_sent"/>
+                <element inactive_on_update="false" label="Accepted" sequence="2" value="accepted"/>
+                <element inactive_on_update="false" label="Declined" sequence="3" value="declined"/>
+                <element inactive_on_update="false" label="Tentative" sequence="4" value="tentative"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="demo"/>
+        </index>
+        <index name="index2">
+            <element name="participant"/>
+        </index>
+    </element>
+</database>

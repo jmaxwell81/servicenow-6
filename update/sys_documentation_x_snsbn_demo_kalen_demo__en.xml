@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Demo" language="en" table="x_snsbn_demo_kalen_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Demo</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo</name>
+            <plural>Demos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-10 14:05:20</sys_created_on>
+            <sys_id>c70b9b75db81230021367a613996191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Demo</sys_name>
+            <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+            <sys_update_name>sys_documentation_x_snsbn_demo_kalen_demo__en</sys_update_name>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-10 14:05:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

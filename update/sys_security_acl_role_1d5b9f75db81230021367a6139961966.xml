@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-10 14:06:35</sys_created_on>
+        <sys_id>1d5b9f75db81230021367a6139961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snsbn_demo_kalen_demo_registration.x_snsbn_demo_kalen.demo_registration_user</sys_name>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_security_acl display_value="x_snsbn_demo_kalen_demo_registration">d15b9f75db81230021367a6139961964</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1d5b9f75db81230021367a6139961966</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-10 14:06:35</sys_updated_on>
+        <sys_user_role display_value="x_snsbn_demo_kalen.demo_registration_user" name="x_snsbn_demo_kalen.demo_registration_user">895bdb75db81230021367a613996193d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

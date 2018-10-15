@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SNS - Demo Date Read only if already fil</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+	if (g_form.getValue('x_snsbn_demo_kalen_demo_date') != ''){
+		g_form.setReadOnly('x_snsbn_demo_kalen_demo_date', true);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-10 14:31:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad70efb9db81230021367a61399619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNS - Demo Date Read only if already fil</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_update_name>sys_script_client_ad70efb9db81230021367a61399619f4</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-10 14:31:52</sys_updated_on>
+        <table>rm_sprint</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

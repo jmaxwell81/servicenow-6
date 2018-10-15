@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_snsbn_demo_kalen_demo</collection>
+        <email_layout/>
+        <message><![CDATA[BEGIN:VCALENDAR
+PRODID:-//Service-now.com//Outlook 11.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VEVENT
+ATTENDEE;ROLE=OPT-PARTICIPANT;
+ RSVP=TRUE:MAILTO:${to}
+ORGANIZER;SENT-BY="MAILTO:${from_mail_adress}"
+  :MAILTO:${from}
+LOCATION:${location}
+DTSTART:${start_formatted}
+DTEND:${end_formatted}
+UID:'x_snsbn_demo_kalen_demo${sys_id}'
+CREATED:${created_formatted}
+DTSTAMP:${dtstamp}
+DESCRIPTION:${additional_info_formatted}
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-SNSYSID:'x_snsbn_demo_kalen_demo${sys_id}'
+X-MS-TNEF-Correlator:'x_snsbn_demo_kalen_demo${sys_id}'
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC ""
+ -//W3C//DTD HTML 3.2//EN"">
+ <HTML><BODY>\n${additional_info_formatted_html}
+ <p style="font:Calibri; font-size:16px; font-weight:bold;">
+ <a href="${skype_meeting}">➜&nbsp;Join Skype Meeting</a>
+  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+ <p style="font:Calibri; font-size:10px;">Trouble Joining? <u>
+ <a href="${skype_meeting}?sl=1"> Try Skype Web App</a> </u></p>
+ <p style="font:Calibri; font-size:10px;">
+ <a href="https://o15.officeredir.microsoft.com/r/rlidLync15?clid
+ =1033&amp;p1=5&amp;p2=2009">Help</a></p>\n</BODY></HTML>
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder ${additional_info_formatted}
+END:VALARM
+END:VEVENT
+END:VCALENDAR]]></message>
+        <message_html/>
+        <message_list/>
+        <message_text><![CDATA[BEGIN:VCALENDAR 
+PRODID:-//Service-now.com//Outlook 11.0 MIMEDIR//EN 
+VERSION:2.0
+METHOD:REQUEST 
+BEGIN:VEVENT 
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE:MAILTO:${to} 
+DTSTART:${dtstart} 
+DTEND:${dtend} 
+UID:${sys_id} 
+DTSTAMP:${dtstamp} 
+DESCRIPTION:${short_description} 
+END:VEVENT 
+END:VCALENDAR]]></message_text>
+        <name>Demo Invite</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-11 08:04:10</sys_created_on>
+        <sys_id>ffc1170adb4d230021367a61399619d4</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Demo Invite</sys_name>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_update_name>sysevent_email_template_ffc1170adb4d230021367a61399619d4</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-12 23:33:32</sys_updated_on>
+        <sys_version/>
+    </sysevent_email_template>
+</record_update>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_snsbn_demo_kalen_demo_registration" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sent</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo_registration</name>
+            <sequence>0</sequence>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 21:11:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12df8ba2db49230021367a61399619e4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 21:13:39</sys_updated_on>
+            <value>sent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update Sent</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo_registration</name>
+            <sequence>1</sequence>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 21:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b009ba2db49230021367a613996190c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 21:13:43</sys_updated_on>
+            <value>update_sent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo_registration</name>
+            <sequence>2</sequence>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 21:12:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2df87a2db49230021367a61399619e7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 21:13:45</sys_updated_on>
+            <value>accepted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Declined</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo_registration</name>
+            <sequence>3</sequence>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 21:12:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cff8ba2db49230021367a613996190a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 21:13:48</sys_updated_on>
+            <value>declined</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tentative</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo_registration</name>
+            <sequence>4</sequence>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 21:12:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbff8ba2db49230021367a613996190b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 21:13:50</sys_updated_on>
+            <value>tentative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo_registration</name>
+            <sequence>5</sequence>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 21:12:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e005ba2db49230021367a6139961922</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 21:13:51</sys_updated_on>
+            <value>cancelled</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_snsbn_demo_kalen_demo_registration</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 21:11:50</sys_created_on>
+            <sys_id>9adf8ba2db49230021367a61399619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+            <sys_update_name>sys_choice_x_snsbn_demo_kalen_demo_registration_state</sys_update_name>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 21:11:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="from_mail_adress" label="From Mail Adress" language="en" table="x_snsbn_demo_kalen_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>from_mail_adress</element>
+            <help/>
+            <hint/>
+            <label>From Mail Adress</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo</name>
+            <plural>From Mail Adress</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-11 11:59:21</sys_created_on>
+            <sys_id>57c744dedbcd230021367a61399619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>From Mail Adress</sys_name>
+            <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+            <sys_update_name>sys_documentation_x_snsbn_demo_kalen_demo_from_mail_adress_en</sys_update_name>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-11 11:59:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

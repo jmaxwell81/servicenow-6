@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="464e5b39db81230021367a6139961901" sys_domain="global" table="x_snsbn_demo_kalen_demo" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>b791f3aedb89230021367a6139961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>3f91f3aedb89230021367a6139961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sprint</element>
+            <position>2</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>bf91f3aedb89230021367a6139961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subscribable</element>
+            <position>3</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>3391f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>b391f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>when</element>
+            <position>5</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>3791f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>6</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>b791f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skype_meeting</element>
+            <position>7</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>3b91f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>bb91f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>9</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>3f91f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_information</element>
+            <position>10</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>bf91f3aedb89230021367a6139961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>3391f3aedb89230021367a6139961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>geregistreerd</element>
+            <position>12</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>b391f3aedb89230021367a6139961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>geaccepteerd</element>
+            <position>13</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>339173eedb89230021367a61399619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>b39173eedb89230021367a61399619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 23:39:24</sys_created_on>
+            <sys_id>379173eedb89230021367a61399619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snsbn_demo_kalen_demo" sys_domain="global" view="Default view">464e5b39db81230021367a6139961901</sys_ui_section>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 23:39:24</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snsbn_demo_kalen_demo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-10 14:19:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>464e5b39db81230021367a6139961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snsbn_demo_kalen_demo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+            <sys_update_name>sys_ui_section_464e5b39db81230021367a6139961901</sys_update_name>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-10 14:19:28</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

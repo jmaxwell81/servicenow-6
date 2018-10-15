@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="geregistreerd" label="Geregistreerd" language="en" table="x_snsbn_demo_kalen_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>geregistreerd</element>
+            <help/>
+            <hint/>
+            <label>Geregistreerd</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo</name>
+            <plural>Geregistreerds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 18:31:33</sys_created_on>
+            <sys_id>de2ba6a6dbc5230021367a6139961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Geregistreerd</sys_name>
+            <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+            <sys_update_name>sys_documentation_x_snsbn_demo_kalen_demo_geregistreerd_en</sys_update_name>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 18:31:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

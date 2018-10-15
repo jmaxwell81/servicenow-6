@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $rootScope, moment, $window, spModal, spUtil) {
+	var c = this;
+
+	$rootScope.$on('angular-bootstrap-calendar-init', function(evt, vm){
+		vm.eventClicked = function(event){
+			var begin = moment(event.startsAt).toString();
+			var end = moment(event.endsAt).toString();
+			var title_1 = 
+					spModal.open({
+						title: event.header,
+						message: '${De demo van }' + event.title + '<br>' + '${ Begint op }' + begin + '<br>' + '${ en eindigt op }' + end + '<br><br>' + event.info,
+						buttons: [
+							{label:'✘ ${Sluiten}', cancel: true},
+							{label:'✔ ${Deelnemen}', primary: true}
+						]
+					}).then(function() {
+						if (event.subscribe == 'true'){
+						c.data.signInFor = event.id;
+						c.server.update();
+						}
+						else{
+							spUtil.addErrorMessage('${Sorry, je kunt je voor deze demo niet (meer) inschrijven.}')
+						}
+					})
+			};
+
+
+		function format(dt){
+			return moment(dt).format('ddd, M/D/Y h:mmA');
+		}
+
+		vm.calendarEventTitle.weekView = function(event){
+			return event.title  + ' (' + format(event.startsAt) + '${ tot }' + format(event.endsAt) + ')';
+		};
+
+		vm.calendarEventTitle.weekViewTooltip = function(event){
+			return event.title  + ' (' + format(event.startsAt) + '${ tot }' + format(event.endsAt) + ')';
+		};
+
+		vm.calendarEventTitle.monthView = function(event){
+			return event.title  + ' (' + format(event.startsAt) + '${ tot }' + format(event.endsAt) + ')';
+		};
+	});	
+
+}]]></client_script>
+        <controller_as>vm</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>demo_calendar</id>
+        <internal>false</internal>
+        <link/>
+        <name>Demo Kalender</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if(input){
+		if (input.signInFor){
+			var register = new GlideRecord('x_snsbn_demo_kalen_demo_registration');
+			register.initialize();
+			register.demo = input.signInFor;
+			register.participant = gs.getUserID();
+			var regSys = register.insert();
+			if (regSys){
+			gs.addInfoMessage(gs.getMessage('U hebt zich ingschreven voor de demo. Kijk aub in uw mailbox om te bevestigen.'));
+			}
+			data.signInFor = '';
+		}
+	}
+	else{
+	data.signInFor = '';
+	var viewDate = new GlideDateTime().toString();
+
+	// Get events from the server, for example from cmdb_ci_outage
+	var events = [];
+	
+	var demo = new GlideRecord('x_snsbn_demo_kalen_demo');
+		demo.addActiveQuery();
+		demo.addNotNullQuery('when');
+	demo.query();
+	while (demo.next()){
+		var primaryColor = 'blue';
+		var secondaryColor = 'light_blue';
+		if (!demo.subscribable){
+		 primaryColor = 'red';
+		 secondaryColor = 'light_red';
+		}
+		var start = new GlideDateTime(demo.when);
+		start.getDisplayValue();
+		var end = new GlideDateTime(demo.end);
+		end.getDisplayValue();
+		var info = demo.getDisplayValue('additional_information') || '${Er is geen extra informatie beschikbaar}';
+		var title = 
+		events.push(setDates({
+			title: '<span class="text-primary">'+demo.getDisplayValue('sprint')+'</span>',
+			header: demo.short_description.toString() || demo.getDisplayValue('sprint'),
+			info: '<span style="font-size:small">'+info+'</span>',
+			color: {primary : primaryColor, secondery : secondaryColor},
+			startsAt: start,
+			endsAt: end,
+			draggable: true,
+			resizable: true,
+			id: demo.sys_id.toString(),
+			subscribe: demo.subscribable.toString()
+		}));
+	}
+
+	var defaultCalendarView = 'month';
+	
+	
+	var customTemplateUrls = '';
+	
+	data.calendarWidget = $sp.getWidget('angular-bootstrap-kalender', { 'events' : events, 'id' : 'calendar1', 
+																																			'show_navigation' : true, 'default_calendar_view' : defaultCalendarView,
+																																			'custom_template_urls' : customTemplateUrls,
+																																		 'start_date' : viewDate });
+	}
+	function setDates(event, daysFromNowStart, hoursLength){
+		var dtStart = new GlideDateTime();
+		event.startsAt = event.startsAt.getDisplayValue();
+		event.endsAt = event.endsAt.getDisplayValue();
+		return event;
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>a9405218</sys_created_by>
+        <sys_created_on>2018-10-10 14:57:01</sys_created_on>
+        <sys_id>c8e6abb1dbc1230021367a61399619de</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>Demo Kalender</sys_name>
+        <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+        <sys_update_name>sp_widget_c8e6abb1dbc1230021367a61399619de</sys_update_name>
+        <sys_updated_by>a9405218</sys_updated_by>
+        <sys_updated_on>2018-10-12 20:35:39</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading" ng-if="options.title">
+    <h2 class="panel-title">
+      {{::options.title}}
+    </h2>
+  </div>
+  <div class="panel-body">
+    <div class="calendar-panel">
+		  <sp-widget widget="data.calendarWidget"/>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

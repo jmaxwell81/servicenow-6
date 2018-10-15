@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="skype_meeting" label="Skype Meeting" language="en" table="x_snsbn_demo_kalen_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>skype_meeting</element>
+            <help/>
+            <hint/>
+            <label>Skype Meeting</label>
+            <language>en</language>
+            <name>x_snsbn_demo_kalen_demo</name>
+            <plural>Skype Meetings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>a9405218</sys_created_by>
+            <sys_created_on>2018-10-12 18:33:02</sys_created_on>
+            <sys_id>0c8beaa6dbc5230021367a61399619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Skype Meeting</sys_name>
+            <sys_package display_value="Demo Kalender" source="x_snsbn_demo_kalen">63575bf937016b04e845d1b543990e23</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Demo Kalender">63575bf937016b04e845d1b543990e23</sys_scope>
+            <sys_update_name>sys_documentation_x_snsbn_demo_kalen_demo_skype_meeting_en</sys_update_name>
+            <sys_updated_by>a9405218</sys_updated_by>
+            <sys_updated_on>2018-10-12 18:33:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
